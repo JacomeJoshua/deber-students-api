@@ -1,6 +1,6 @@
 package com.example.demo.dto
 
-class StudentRequest(
+data class StudentRequest(
     val name: String,
     val email: String
 )
